@@ -1,0 +1,56 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #889254;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Isso alinha os itens no cabeçalho */
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+
+section {
+    background-color: #0D9FD9;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#logo {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+#Logo__Home {
+    max-width: 450px;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #F29D35;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 375px) {
+    #logo {
+        display: none;
+    }
+    nav {
+        gap: -40px;
+    }
+    nav a:last-child {
+        margin-right: 0;
+    }
+}
