@@ -11,6 +11,11 @@ header {
     border-bottom: 2px solid black; /* Adicione a borda preta na parte inferior */
 }
 
+body {
+    background-color: #0D9FD9;
+
+
+}
 
 section {
     background-color: #0D9FD9;
