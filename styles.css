@@ -1,25 +1,32 @@
 /* Estilos para o cabeçalho */
 header {
-    background-color: #889254;
+    background-color: #0D9FD9;
     color: #fff;
     padding: 10px;
     text-align: center;
     display: flex;
-    justify-content: space-between; /* Isso alinha os itens no cabeçalho */
+    justify-content: space-between;
     align-items: center;
-    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid black; /* Adicione a borda preta na parte inferior */
 }
+
 
 section {
     background-color: #0D9FD9;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    
+    
 }
 
 #logo {
     max-width: 100px;
     margin-right: 20px;
+    border-radius: 50px;
+
 }
 
 #Logo__Home {
@@ -27,6 +34,174 @@ section {
     font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
 }
 
+#O__Jogo {
+    background-color: #F29D35;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Sobre__Jogo {
+    margin-top: 30px;
+    background-color: #F29D35;
+    width: 80%; /* Use 100% para ocupar toda a largura do contêiner pai */
+    border-radius: 50px; /* Defina o valor desejado para a curvatura das bordas */
+    display: flex;
+
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+}
+.text-content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+    background-color: #F29D35;
+    border-radius: 50px;
+
+}
+#text__content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+    background-color: #fCCB95;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text__content__2 {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+    background-color: #FCCB95;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#regras {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+    background-color: #F29D35;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+#temas {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 40px;
+}
+#regras a {
+    text-decoration: underline;
+    color: #0D9FD9; /* Define a cor do texto do link */
+}
+
+
+#section__temas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas/colunas */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+#section__temas__profissoes { 
+    border-radius: 50px;
+    background-color: #F29D35;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; /* Define a direção como coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    
+}
+#section__temas__animais { 
+    border-radius: 50px;
+    background-color: #F29D35;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; /* Define a direção como coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+#section__temas__celebridades { 
+    border-radius: 50px;
+    background-color: #F29D35;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; /* Define a direção como coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+
+#section__temas__herois{
+
+    border-radius: 50px;
+    background-color: #F29D35;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; /* Define a direção como coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+#background__profissoes {
+    background-color: #FCCB95;
+    border: 20px;
+    width: 101%;
+    padding: 18px;
+    border-radius: 0 0 50px 50px; /* Os valores são para os cantos superiores esquerdo e direito, e os cantos inferiores esquerdo e direito, respectivamente */
+}
+#content__profissoes {
+    background-color: #FCCB95;
+    padding: 20px;
+    border-radius: 0 0 50px 50px; /* Os valores são para os cantos superiores esquerdo e direito, e os cantos inferiores esquerdo e direito, respectivamente */
+}
+#text__profissoes{
+    background-color:  #F29D35;
+    border-radius: 50px; /* Os valores são para os cantos superiores esquerdo e direito, e os cantos inferiores esquerdo e direito, respectivamente */
+    padding: 10px;
+}
 /* Estilos para a barra de navegação */
 nav {
     font-family: 'Arial', sans-serif; /* Use Arial como fonte principal e sans-serif como fonte de fallback */
