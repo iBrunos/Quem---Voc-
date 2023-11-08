@@ -23,8 +23,26 @@ section {
     flex-direction: column;
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente os elementos dentro do rodapé */
+    align-items: center; /* Centralize verticalmente os elementos dentro do rodapé (opcional) */
+}
+
+#instagramIcon {
+    margin-left: 20px;
+    width: 2%;
+    height: 2%;
+    cursor: pointer;
     
-    
+}
+
+h2 {
+    margin-left: 20px;
 }
 
 #logo {
@@ -221,6 +239,8 @@ nav a {
 nav a:hover {
     color: #F29D35;
 }
+
+
 
 /* Estilos para dispositivos móveis */
 @media (max-width: 375px) {
